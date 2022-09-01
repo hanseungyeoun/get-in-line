@@ -1,35 +1,8 @@
-Skip to content
-Product
-Team
-Enterprise
-Explore
-Marketplace
-Pricing
-Search
-Sign in
-Sign up
-djkeh
-get-in-line
-Public
-Code
-Issues
-Pull requests
-Discussions
-Actions
-Projects
-Security
-Insights
-get-in-line/.gitignore
-@djkeh
-djkeh Update .gitignore
-…
-Latest commit 5e38a3d on 1 Aug 2021
- History
- 1 contributor
-185 lines (141 sloc)  3.52 KB
-
 # Created by https://www.toptal.com/developers/gitignore/api/java,intellij+all,visualstudiocode,gradle,macos
 # Edit at https://www.toptal.com/developers/gitignore?templates=java,intellij+all,visualstudiocode,gradle,macos
+
+### querydsl
+/src/main/generated
 
 ### Intellij+all ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
@@ -213,17 +186,3 @@ gradle-app.setting
 **/build/
 
 # End of https://www.toptal.com/developers/gitignore/api/java,intellij+all,visualstudiocode,gradle,macos
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About

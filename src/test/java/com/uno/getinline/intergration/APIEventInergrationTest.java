@@ -29,19 +29,19 @@ public class APIEventInergrationTest {
     void aaaaa() throws Exception {
 
         // When & Then
-        mvc.perform(get("/api/events")
-                        .queryParam("placeId", "1")
-                        .queryParam("eventName", "오후")
-                        .queryParam("eventStatus", EventStatus.OPENED.name())
-                        .queryParam("eventStartDatetime", "2021-01-01T00:00:00")
-                        .queryParam("eventEndDatetime", "2021-01-01T00:00:00")
-                )
-                .andExpect(status().isOk())
-                .andExpect(content().contentTypeCompatibleWith(MediaType.APPLICATION_JSON))
-                .andExpect(jsonPath("$.data").isEmpty())
-                .andExpect(jsonPath("$.success").value(true))
-                .andExpect(jsonPath("$.errorCode").value(ErrorCode.OK.getCode()))
-                .andExpect(jsonPath("$.message").value(ErrorCode.OK.getMessage()))
-                .andDo(print());
+//        mvc.perform(get("/api/events")
+//                        .queryParam("placeId", "1")
+//                        .queryParam("eventName", "오후")
+//                        .queryParam("eventStatus", EventStatus.OPENED.name())
+//                        .queryParam("eventStartDatetime", "2021-01-01T00:00:00")
+//                        .queryParam("eventEndDatetime", "2021-01-01T00:00:00")
+//                )
+//                .andExpect(status().isOk())
+//                .andExpect(content().contentTypeCompatibleWith(MediaType.APPLICATION_JSON))
+//                .andExpect(jsonPath("$.data").isEmpty())
+//                .andExpect(jsonPath("$.success").value(true))
+//                .andExpect(jsonPath("$.errorCode").value(ErrorCode.OK.getCode()))
+//                .andExpect(jsonPath("$.message").value(ErrorCode.OK.getMessage()))
+//                .andDo(print());
     }
 }
